@@ -1,0 +1,93 @@
+/* Загальний стиль сторінки */
+body {
+    background-color: #3A2A1F;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #F5EDE6;
+}
+
+/* Головний заголовок */
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* Підзаголовки */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #EADDD4;
+}
+
+/* Основний текст */
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    color: #F5EDE6;
+}
+
+/* Меню навігації */
+.navigation {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Посилання в меню */
+.navigation a {
+    text-decoration: none;
+    color: #F5EDE6;
+    font-weight: 600;
+    padding: 8px;
+}
+
+/* Ефект при наведенні */
+.navigation a:hover {
+    color: #D6B89C;
+}
+
+/* Загальні посилання */
+a {
+    color: #EADDD4;
+}
+
+/* Галерея */
+table {
+    margin: auto;
+}
+
+/* Фото */
+img {
+    border-radius: 12px;
+}
+/* Ефект для фото в галереї */
+img {
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+/* Стиль для меню навігації */
+.navigation {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+/* Посилання меню */
+.navigation a {
+    text-decoration: none;
+    color: #F5EDE6;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+/* Ефект при наведенні */
+.navigation a:hover {
+    color: #D6B89C;
+}
